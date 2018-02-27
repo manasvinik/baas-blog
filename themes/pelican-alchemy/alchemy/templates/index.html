@@ -41,7 +41,8 @@
           {% endif %}
         
       </header> -->
-      <div class="col-sm-12" style="padding:0px;">
+      <div class="col-sm-12 card post-card" style="margin:0px;">
+      <div class="card-body">
         <h4 class="title">
           <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
         </h4>
@@ -49,6 +50,7 @@
         <div class="content">
           {{ article.summary|striptags }}
         </div>
+      </div>
       </div>
     </article>
     {% if not loop.last %}

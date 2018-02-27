@@ -544,7 +544,6 @@ li {
     width: 100%;
     background-size: cover;
     position: relative;
-    background-color: red !important;
 }
 
 
@@ -592,4 +591,8 @@ li {
 
 .big-text {
   font-size: 40px;
+}
+
+.post-card {
+  box-shadow: 0px 3px 8px rgba(0,0,0,0.1);
 }
