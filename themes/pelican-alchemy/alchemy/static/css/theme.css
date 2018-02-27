@@ -544,6 +544,7 @@ li {
     width: 100%;
     background-size: cover;
     position: relative;
+    background-color: red !important;
 }
 
 
