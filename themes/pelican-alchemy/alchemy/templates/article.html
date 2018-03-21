@@ -22,29 +22,30 @@
     <header>
       <ul class="list-inline">
         <li class="list-inline-item" title="{{ article.date.isoformat() }}">
-          <i class="far fa-calendar"></i>
+          <i class="fas fa-calendar"></i>
           <span class="text-muted">{{ article.locale_date }}</span>
-        </li>
+        </li> | 
         <li class="list-inline-item">
-          <i class="fas fa-hashtag"></i>
-          <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
+          <!-- <i class="fas fa-hashtag"></i> -->
+          <a href="{{ SITEURL }}/{{ article.category.url }}" class="badge badge-secondary">{{ article.category }}</a>
+          <!-- <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a> -->
         </li>
-        {% if not HIDE_AUTHORS and article.authors %}
+       <!--  {% if not HIDE_AUTHORS and article.authors %}
           <li class="list-inline-item">
             <i class="fa fa-user-o"></i>
             {% for author in article.authors %}
               <a href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>{% if not loop.last %}, {% endif %}
             {% endfor %}
           </li>
-        {% endif %}
-        {% if article.tags %}
-          <li class="list-inline-item">
-            <i class="fa fa-files-o"></i>
+        {% endif %} -->
+        <!-- {% if article.tags %} -->
+         <!--  <li class="list-inline-item">
+           
             {% for tag in article.tags %}
-              <a href="{{ SITEURL }}/{{ tag.url }}">#{{ tag }}</a>{% if not loop.last %}, {% endif %}
+              <a href="{{ SITEURL }}/{{ tag.url }}" class="badge badge-warning">#{{ tag }}</a>{% if not loop.last %}, {% endif %}
             {% endfor %}
-          </li>
-        {% endif %}
+          </li> -->
+        <!-- {% endif %} -->
       </ul>
     </header>
     <div class="content">
@@ -53,20 +54,10 @@
   </article>
 
     <div class="reading signup-blog">
-    <div class="container text-center">
-      <p class="big-text">Think this makes sense?</p>
-      <p>Add your email here and we'll send you similar articles when we manage to stop procrastinating and write them.</p>
-       <form class="form-inline" name="contact" method="POST" action="thank-you" netlify>
-  <div class="form-group mx-sm-3 mb-2">
-    <label for="inputPassword2" class="sr-only">Password</label>
-    <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
-  </div>
-  <div netlify-recaptcha></div>
-  <p>
-    <button class="btn btn-primary mb-2" type=”submit”>Send</button>
-  </p>
-</form>
-
+      <div class="container text-center">
+        <p class="big-text">Think this makes sense?</p>
+        <p>Add your email here and we'll send you similar articles when we manage to stop procrastinating and write them.</p>
+         
       </div>
     </div>
   {% include 'include/comments.html' %}

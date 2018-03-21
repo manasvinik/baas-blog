@@ -21,32 +21,15 @@
   {% for article in articles_page.object_list %}
 
     <article class="row teaser reading">
-   <!--    <header class="col-sm-4 text-muted">
-        
-          <p title="{{ article.date.isoformat() }}">
-            <i class="fa fa-clock-o"></i>
-            {{ article.locale_date }}
-          </p>
-          <p>
-            <i class="fa fa-folder-open-o"></i>
-            <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
-          </p>
-          {% if not HIDE_AUTHORS and article.authors %}
-            <p>
-              <i class="fa fa-user-o"></i>
-              {% for author in article.authors %}
-                <a href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>{% if not loop.last %}, {% endif %}
-              {% endfor %}
-            </p>
-          {% endif %}
-        
-      </header> -->
       <div class="col-sm-12 card post-card" style="margin:0px;">
       <div class="card-body">
+       <strong class="d-inline-block mb-2 text-primary"><a href="{{ SITEURL }}/{{ article.category.url }}"><span class="badge badge-secondary">{{ article.category }}</span></a></strong>
         <h4 class="title">
           <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
         </h4>
-        <p class="text-muted">{{ article.locale_date }} <!-- | <a href="{{ SITEURL }}/{{ article.category.url }}"><span class="badge badge-secondary">{{ article.category }}</span></a> --></p>
+        <p class="text-muted">{{ article.locale_date }}
+        <!--  | <a href="{{ SITEURL }}/{{ article.category.url }}"><span class="badge badge-secondary">{{ article.category }}</span></a> -->
+         </p>
         <div class="content">
           {{ article.summary|striptags }}
         </div>
