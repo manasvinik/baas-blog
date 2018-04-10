@@ -552,4 +552,9 @@ input::placeholder {
 
 #subscribe-result p {
     margin-top: 35px;
+    font-weight:600;
+}
+
+#subscribe-result {
+  border-radius: 4px;
 }
