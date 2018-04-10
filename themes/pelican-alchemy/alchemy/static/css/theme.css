@@ -426,11 +426,12 @@ li {
 }
 
 .signup-blog {
-  background-color: #e5e5e5;
+  /*background-color: #e5e5e5;*/
   padding-top: 100px;
   padding-bottom: 100px;
   margin-top: 70px;
   margin-bottom: 70px;
+  background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
 }
 
 .blog-card {
