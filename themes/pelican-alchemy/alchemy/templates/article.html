@@ -71,9 +71,13 @@
 
     <header>
       <ul class="list-inline text-muted">
+
+        <li class="list-inline-item" title="{{ article.date.isoformat() }}">
+           <img src="https://robohash.org/manas?bgset=bg2" alt="Avatar" class="avatar"> 
+        </li> 
        
         <li class="list-inline-item" title="{{ article.date.isoformat() }}">
-          <i class="fas fa-calendar"></i>
+          <!-- <i class="fas fa-calendar"></i> -->
           <span class="text-muted">{{ article.locale_date }}</span>
         </li> | 
 
