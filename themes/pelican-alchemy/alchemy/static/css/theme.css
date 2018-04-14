@@ -570,7 +570,7 @@ input::placeholder {
 }
 
 blockquote {
-  padding-left: 50px;
+  padding-left: 20px;
   border-left: 4px solid #91B2FF;
   color: #222;
   margin-top: 40px;
@@ -582,3 +582,12 @@ blockquote p {
   font-size: 17px !important;
   font-style: italic;
 }
+
+
+@media only screen and (max-width: 642px) {
+    section {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+}
+
