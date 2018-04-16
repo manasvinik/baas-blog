@@ -597,3 +597,7 @@ blockquote p {
 .no-pad {
   padding:0px !important;
 }
+
+.header-superhero {
+  height:200px;
+}
