@@ -29,7 +29,7 @@ It took me years to understand that the number one problem I had (and most peopl
 
 > You don’t need another app to write down your todos in. What you need is something that ensures you get your work done.
 
-![Photo]({attach}images/revelation.png)
+<img alt="Revelation" src="{attach}images/revelation.png" class="img-fluid" >
 
 ## Building BaaS
 
@@ -60,7 +60,7 @@ Boss as a Service recreates the feeling of accountability for:
 
 Boss as a Service launched on January 9, 2018. Our first customer (who’s still with us, 3+ months down the line) signed up exactly one hour after the launch. 
 
-![Photo]({attach}images/first_user.png)
+<img alt="First User" src="{attach}images/first_user.png" class="img-fluid" >
 
 A more detailed blog on the launch is on the way, but this post was intended to just be an introduction to what this blog is about.
 
