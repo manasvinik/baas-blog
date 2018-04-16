@@ -39,3 +39,5 @@ THEME = "themes/pelican-alchemy/alchemy"
 DISQUS_SITENAME = "bossasaservice"
 
 HIDE_AUTHORS = True
+
+STATIC_PATHS = ['images']
