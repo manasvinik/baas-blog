@@ -17,7 +17,7 @@ This is what I wrote in a blog circa 2016.
 
 > I am a bit of a productivity nerd. If there's a productivity app out there, chances are I've tried it. For a while, I secretly nourished the belief that the perfect to-do app for me existed. Somewhere out there. And when we meet each other, sparks will fly, it will be a match made in heaven, and someone might make a movie about it. In the end, I decided to just make it myself. While the vision might change a bit, right now it's looking like a more powerful version of Carrot -- an AI that organizes your tasks and ensures you're productive. If you'd like to be notified when this is usable, please let me know here.
 
-I did try to build this vision of "the perfect todo app". I spent many months on it, on and off. But many wasted weekends and many false starts later, I realized something I ought to have understood years back -- that my love of cool UIs and spiffy interactions was leading me astray. 
+I did try to build this vision of "the perfect todo app". I spent several months on it, on and off. But many wasted weekends and many false starts later, I realized something I ought to have understood years back -- that my love of cool UIs and spiffy interactions was leading me astray. 
 
 It doesn't matter how clean and good looking and AI infused (LOL, right.) the app is. At the end of the day, it's no different from the hundreds of other apps out there whose primary purpose is to let you keep a record of your todos. They may organize them, colour code them, give you voice reminders, or roll them in honey and molten candy. It doesn't matter. At the core of it, the value that they offer is, "You can store your todos here."
 
@@ -25,7 +25,7 @@ And that is not enough.
 
 Now, I'm not knocking them -- a lot of these apps are wonderfully designed and a delight to use, but my experience with them tends to be this: I sign up, full of excitement, and add a few weeks' worth of tasks to them. I promptly forget all about it. One month later, I find a new one. Now *this* one will surely work for me! Rinse and repeat.
 
-It took me long enough to understand that the number one problem I had (and most people have) with productivity is not "I don't have a place to write my tasks in." It's not even "I don't have a *well-designed and inspiring* place to write my tasks in." It is "I don't have something that ensures I follow through with completing my tasks."
+It took me years to understand that the number one problem I had (and most people have) with productivity is not "I don't have a place to write my tasks in." It's not even "I don't have a *well-designed and inspiring* place to write my tasks in." It is "I don't have something that ensures I finish my tasks."
 
 > You don’t need another app to write down your todos in. What you need is something that ensures you get your work done.
 
@@ -33,7 +33,7 @@ It took me long enough to understand that the number one problem I had (and most
 
 ## Building BaaS
 
-In December 2017, I got the familiar feeling of year end panicking. What had I done that year? It seemed like I'd not achieved half of what I wanted to. But for once, instead of reflexively Googling "best todo app task planner", I started thinking about my own trends of productivity. When in my life had I actually got got things done?
+In December 2017, I looked at the year that had just gone by, and felt the familiar sinking feeling of year end panicking. What had I done that year? It seemed like I'd not achieved half of what I wanted to. But for once, instead of reflexively Googling "best todo app task planner", I started thinking about my own trends of productivity. At what point in my life had I actually got things done?
 
 And one fact immediately leapt out at me -- my productive peak so far was when I worked for someone else. Many factors contributed to this -- the fact that I had very little wiggle room in terms of deadlines, that other people depended on me to finish my work. I got things done, almost on autopilot, because *there was no other choice*. If I didn't, there would be someone to demand answers. 
 

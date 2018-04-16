@@ -399,23 +399,23 @@ li {
 }
 
 .blog-body-text {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 
 .page-heading {
- /* background: 
-    linear-gradient(
-      rgba(255, 0, 0, 0.45), 
-      rgba(255, 0, 0, 0.45)
-    ),
-    url('http://unsplash.it/1200x800') center center no-repeat;*/
-    background-color: white;
-    color:#393051;
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    position: relative;
+/* background: 
+  linear-gradient(
+    rgba(255, 0, 0, 0.45), 
+    rgba(255, 0, 0, 0.45)
+  ),
+  url('http://unsplash.it/1200x800') center center no-repeat;*/
+  background-color: white;
+  color:#393051;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  position: relative;
 }
 
 
@@ -450,7 +450,7 @@ li {
 }
 
 .content p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.7;
 }
 
