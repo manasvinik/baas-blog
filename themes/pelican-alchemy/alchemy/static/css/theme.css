@@ -16,6 +16,7 @@ h1, h2 {
   color:#393051;
   margin-bottom: 50px;
   margin-top: 50px;
+  line-height: 50px;
 }
 
 h3 {
@@ -605,4 +606,8 @@ blockquote p {
 .img-fluid {
   padding-top:20px;
   padding-bottom: 20px;
+}
+
+.caption {
+  font-style: italic;
 }
