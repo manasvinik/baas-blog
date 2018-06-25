@@ -11,7 +11,7 @@ I’ve always struggled with procrastination, or if I want to be fancy about it,
 
 Combined with this, I’m also fairly ambitious. I want to do more things, I want to learn more things. 
 
-## The "Pefect Todo App"
+## The "Perfect Todo App"
 
 This is what I wrote in a blog circa 2016. 
 
